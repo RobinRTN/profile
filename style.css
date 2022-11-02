@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Space+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Roboto:wght@300&family=Space+Mono&display=swap');
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  color: #fbfbfb;
+  font-size: 18px;
+  text-align: center;
+  background-image: url("images/4589350.jpeg");
+}
+
+
+p {
+  font-family: 'Roboto', sans-serif;
+}
+
+.round-image {
+  border-radius: 50%;
+  box-shadow: 0px 4px 16px #ff007359;
+}
+
+.box {
+  background-color: #171717c1;
+  border: #F2F2F2;
+  padding: 15px;
+  margin: 60px;
+  border-radius: 20px;
+  box-shadow: 0px 4px 16px;
+  font-weight: bold;
+}
+
+.box:hover {
+  background-color: #171717e5;
+}
+
+.resize-first-box {
+  width: 300px;
+  margin-inline: auto;
+}
+
+.goal_gif {
+  margin: 35px;
+}
+
+.follow-font {
+  font-size: 15px;
+  color: #000000;
+}
+
+
+.button {
+  text-decoration: none;
+  background-color: #ED217C;
+  color: #F2F2F2;
+  padding: 9px;
+  border-radius: 7px;
+}
+
+.button:hover {
+  background-color: #A13D63
+  ;
+}
+
+ul, li {
+  padding: Opx;
+  text-align: center;
+}
+
+ul {
+  padding: 0px !important;
+}
+
+a {
+  text-decoration: none;
+}
+
+.list-in-line {
+  list-style-type: none;
+  font-size: 25px;
+  display: inline;
+}
+
+.best-social-button {
+  color: #000000;
+  padding: 6px;
+  border-radius: 7px;
+}
+
+.best-social-button:hover {
+  color: #ED217C;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
